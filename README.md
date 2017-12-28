@@ -9,4 +9,7 @@ I have this setup running to stream via a bluetooth dongle to a Logitech Media S
 - Audio source on audio in
 
 # Config
-Adapt the darkice-stop.sh to your icecast-darkice stream name, given in darkice.cfg
+Adapt the darkice-stop.sh to your icecast-darkice stream name, given in darkice.cfg and copy the darkice.cfg to /et/darkice.cfg
+
+# Usage
+Start darkice.sh in any detachable mode, e.g. with screen =)
