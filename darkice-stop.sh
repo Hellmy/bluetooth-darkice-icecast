@@ -1,3 +1,4 @@
+# ensure current error.log access
 cat /var/log/icecast2/error.log
 tail -Fn1 /var/log/icecast2/error.log |\
 	while read line ; do
