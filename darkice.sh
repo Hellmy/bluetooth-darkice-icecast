@@ -11,6 +11,8 @@ test() {
 		killall darkice
 	fi
 }
+# ensure current error.log access
+cat /var/log/icecast2/error.log
 tail -Fn0 /var/log/icecast2/access.log |\
 	while read line ; do
 		echo "$line" | grep "404"
